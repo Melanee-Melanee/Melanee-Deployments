@@ -1,7 +1,9 @@
 import streamlit as st
 from streamlit.logger import get_logger
+from PIL import Image
 
 LOGGER = get_logger(__name__)
+
 
 
 def run():
@@ -9,6 +11,9 @@ def run():
         page_title="Hello",
         page_icon="👋",
     )
+    
+    image = Image.open('MELANEE WEB APPS.png')  
+    st.image(image, use_column_width=True)
 
     st.write("# Welcome to Melanee's projects! 👋")
 
