@@ -26,6 +26,8 @@ def run():
         [DNA Count](https://melanee-melanee-melanee-deployments-home-r1hhhp.streamlit.app/dna-app) 
         
         [Diabet Estimation](https://melanee-melanee-melanee-deployments-home-r1hhhp.streamlit.app/Diabet)
+        
+        [Heart Failure Prediction](https://melanee-melanee-melanee-deployments-home-r1hhhp.streamlit.app/Heart_Failure)
     """
     )
 
