@@ -21,11 +21,12 @@ def run():
 
     st.markdown(
         """
-        This web app is developed by [Melanee](https://github.com/Melanee-Melanee) 
+   This web app is developed by [Melanee](https://github.com/Melanee-Melanee) 
         ### My apps:
         [DNA Count](https://melanee-melanee-melanee-deployments-home-r1hhhp.streamlit.app/dna-app) 
         
-        [Penguins app](https://melanee-melanee-melanee-deployments-home-r1hhhp.streamlit.app/penguins-app)
+        [Diabet Estimation](https://melanee-melanee-melanee-deployments-home-r1hhhp.streamlit.app/Diabet)
+   
     """
     )
 
