@@ -28,7 +28,7 @@ st.title('Diabetes Estimation')
 
 st.subheader('Estimate your risk of developing Type II Diabetes based on your biomarker values, using a trusted machine learning algorithm.')
 
-#st.sidebar.image('img/logo.png', use_column_width='auto', output_format='PNG')
+st.sidebar.image('img/logo.png', use_column_width='auto', output_format='PNG')
 
 st.sidebar.subheader('Insert your biomarker values here:')
 
