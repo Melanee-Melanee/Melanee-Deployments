@@ -21,8 +21,10 @@ def run():
 
     st.markdown(
         """
-        This website is developed by [Melanee GitHub](https://github.com/Melanee-Melanee) 
+        Source code of this website is published on [Melanee'GitHub](https://github.com/Melanee-Melanee/Melanee-Deployments) 
         ### My apps:
+     
+         
         [DNA Count](https://melanee-melanee-melanee-deployments-home-r1hhhp.streamlit.app/dna-app) 
         
         [Diabet Estimation](https://melanee-melanee-melanee-deployments-home-r1hhhp.streamlit.app/Diabet)
