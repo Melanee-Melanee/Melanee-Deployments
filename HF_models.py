@@ -22,15 +22,12 @@ X[scale_list] = scaler.fit_transform(X[scale_list])
 
 
 # Logistic Regresion algorithm
-from sklearn.linear_model import LogisticRegression
 Logi = LogisticRegression(C=0.46415, penalty='l2')
 Logi.fit(X,y)
 pickle.dump(Logi,open('Logistic_HF.pkl', 'wb'))
 
 
 # SVC algorithm
-from sklearn import svm
-from sklearn.svm import SVC
 SVM = SVC(kernel='linear', probability=True)
 SVM.fit(X,y)
 pickle.dump(SVM, open('SVC_HF.pkl', 'wb'))
