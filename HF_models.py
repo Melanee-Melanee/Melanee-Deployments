@@ -6,6 +6,7 @@ import xgboost as xgb
 from xgboost import XGBClassifier
 from sklearn.preprocessing import StandardScaler 
 import pickle
+import time
 
 # Training three models to predict heart failure
 
