@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit.logger import get_logger
 from PIL import Image
-import time
+import time, requests
 
 LOGGER = get_logger(__name__)
 
