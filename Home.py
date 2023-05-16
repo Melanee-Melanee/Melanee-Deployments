@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit.logger import get_logger
 from PIL import Image
+import time
 
 LOGGER = get_logger(__name__)
 
@@ -21,7 +22,7 @@ def run():
 
     st.markdown(
         """
-        Source code of this website is published on [Melanee'GitHub](https://github.com/Melanee-Melanee/Melanee-Deployments) 
+        Source code of this website is shared on [Melanee'GitHub](https://github.com/Melanee-Melanee/Melanee-Deployments) 
         ### My apps:
      
          
