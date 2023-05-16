@@ -5,6 +5,7 @@ import streamlit as st
 from xgboost import XGBClassifier, plot_importance
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+import time
 
 # Retrieve training and test data
 # Data set: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
